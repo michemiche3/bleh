@@ -1,5 +1,172 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bleh Food Co.</title>
+  <meta name="description" content="Bleh food production company." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varta:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #FFFDFB;
+      --border: #DEC49F;
+      --muted:  #AE9C83;
+      --dim:    #888;
+      --text:   #000000;
+      --bright: #070300;
+      --accent: #BD9779;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+      line-height: 1.75;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 5rem 2rem 6rem;
+    }
+
+    header { 
+      background: var(--accent);
+      margin-bottom: 5rem; }
+
+    .site-name {
+      font-family: 'Varta', serif;
+      font-size: 1.6rem;
+      color: var(--bright);
+      margin-bottom: 0.4rem;
+    }
+
+    .site-name span { color: var(--accent); }
+
+    .site-tagline {
+      font-size: 13px;
+      color: var(--dim);
+    }
+    
+    .sidenav {
+  height: 55px; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    }
+
+    .sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+    }
+    
+    section { margin-bottom: 4rem; }
+
+    h3 {
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--bright);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      color: var(--bright);
+      font-size: 13px;
+      line-height: 1.85;
+      margin-bottom: 0.75rem;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .service-list { list-style: none; }
+
+    .service-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .service-list li:first-child { border-top: 1px solid var(--border); }
+
+    .price-note {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 1rem;
+      font-style: italic;
+    }
+
+    .contact-line {
+      display: flex;
+      gap: 0.6rem;
+      font-size: 13px;
+      color: var(--dim);
+      margin-bottom: 0.4rem;
+    }
+
+    .contact-line .label {
+      color: var(--muted);
+      min-width: 80px;
+    }
+
+    .contact-line a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .contact-line a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    footer {
+      margin-top: 5rem;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    header                 { animation: fadeUp 0.5s ease both; }
+    section:nth-of-type(1) { animation: fadeUp 0.5s 0.05s ease both; }
+    section:nth-of-type(2) { animation: fadeUp 0.5s 0.10s ease both; }
+    section:nth-of-type(3) { animation: fadeUp 0.5s 0.15s ease both; }
+  </style>
+</head>
 <body>
-  <h3>Bleh Food Co.</h3>
-  <p>its bleh brb</p>
+
+  <header>
+    <div class="site-name">Bleh<span>.</span></div>
+    <div class="site-tagline">SITE UNDER CONSTRUCTION</div>
+  </header>
+
+  <section>
+    <h3>Under Construction</h3>
+    <p>This page is actively being worked on, please don't mind this. Come back in a few days and see if it's ready!</p>
+  </section>
+
+  <footer>icanfixthat.site &nbsp;·&nbsp; Idaho Falls, ID</footer>
+
 </body>
+</html>
